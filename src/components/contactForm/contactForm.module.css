@@ -1,0 +1,38 @@
+.form {
+  max-width: 350px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Nanum Gothic", sans-serif;
+
+  label {
+    font-family: "Zen Loop", cursive;
+    font-size: 30px;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: none;
+    color: white;
+  }
+
+  button {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

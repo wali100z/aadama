@@ -1,0 +1,66 @@
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Zen Loop", cursive;
+}
+
+.activity img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.activity figcaption {
+  background-color: #c5b496;
+  padding: 20px 0;
+  border-radius: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  bottom: -50px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.titleTwo {
+  margin-bottom: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  margin-top: 35px;
+  font-size: 25px;
+}
+
+.infoSection {
+  background-color: #33626c;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50px 0;
+  position: relative;
+  top: -50px;
+  font-size: 36px;
+  text-align: start;
+}
+
+.infoSection button {
+  background: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50px 0;
+  border: 1px solid white;
+  font-family: "Zen Loop", cursive;
+  font-size: 30px;
+}
